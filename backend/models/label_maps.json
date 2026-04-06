@@ -1,0 +1,30 @@
+{
+  "diet_categories": {
+    "0": "Balanced",
+    "1": "High Protein",
+    "2": "Low Carb",
+    "3": "Plant-Based",
+    "4": "Keto"
+  },
+  "exercise_categories": {
+    "0": "Cardio Focus",
+    "1": "Strength \u2014 Beginner",
+    "2": "Strength \u2014 Advanced",
+    "3": "HIIT",
+    "4": "Yoga / Mobility"
+  },
+  "goals": {
+    "0": "Weight Loss",
+    "1": "Weight Gain",
+    "2": "Muscle Gain",
+    "3": "Body Building"
+  },
+  "activity_levels": {
+    "0": "Sedentary",
+    "1": "Lightly Active",
+    "2": "Moderately Active",
+    "3": "Very Active",
+    "4": "Extremely Active",
+    "5": "Athlete"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+
+# ⚠️ Uncomment the line below before pushing to GitHub
+# to protect your API key!
+# src/config.js

@@ -1,0 +1,61 @@
+{
+  "algorithm": "MLP Neural Network (Diet & Exercise) + HistGradientBoosting (Calories)",
+  "feature_names": [
+    "age",
+    "height_cm",
+    "weight_kg",
+    "gender_enc",
+    "bmi",
+    "activity_level",
+    "goal",
+    "diet_pref",
+    "sleep_hours",
+    "workout_freq",
+    "bmi_category",
+    "age_group",
+    "whr",
+    "activity_x_goal",
+    "bmi_x_goal",
+    "good_sleep",
+    "high_bmi_flag",
+    "low_bmi_flag"
+  ],
+  "n_features": 18,
+  "training_samples": 15000,
+  "diet_test_accuracy": 0.9978,
+  "diet_cv_accuracy": 0.9969,
+  "exercise_test_accuracy": 0.9871,
+  "exercise_cv_accuracy": 0.9917,
+  "calorie_mae": 20.07,
+  "calorie_r2": 0.9984,
+  "label_maps": {
+    "diet_categories": {
+      "0": "Balanced",
+      "1": "High Protein",
+      "2": "Low Carb",
+      "3": "Plant-Based",
+      "4": "Keto"
+    },
+    "exercise_categories": {
+      "0": "Cardio Focus",
+      "1": "Strength \u2014 Beginner",
+      "2": "Strength \u2014 Advanced",
+      "3": "HIIT",
+      "4": "Yoga / Mobility"
+    },
+    "goals": {
+      "0": "Weight Loss",
+      "1": "Weight Gain",
+      "2": "Muscle Gain",
+      "3": "Body Building"
+    },
+    "activity_levels": {
+      "0": "Sedentary",
+      "1": "Lightly Active",
+      "2": "Moderately Active",
+      "3": "Very Active",
+      "4": "Extremely Active",
+      "5": "Athlete"
+    }
+  }
+}
